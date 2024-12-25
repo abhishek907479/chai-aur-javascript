@@ -1,0 +1,46 @@
+// attribute always give value
+
+
+document.getElementById('title').getAttribute('id')
+
+document.getElementById('title').setAttribute('class','test')
+
+
+
+const title = document.getElementById('title')
+
+title.style.backgroundColor = 'green'
+
+
+<h1  id="title" class="heading">DOM learning on youtube <span  style="display:none;">test text</span> </h1> 
+
+
+
+
+title.innerHTML --> give  the html tag 
+
+
+
+
+title.innerText -->give  "dom learning on youtube"
+title.textcontent --> give  "dom learning on youtube test text"  //  it also give the content that is hidden by css properties
+
+
+
+document.querySelector('#title')  --> it  select the first heading
+
+# is used for id 
+. is used for class
+
+
+
+title.querySelectorAll()   -> it give a nodeList we have to use [index]  to access it
+
+or we can access the nodelist using forEach loop like this
+
+myLi.forEach(function () {})
+myLi.forEach(function (l) {   l.style.color="black"})
+
+
+
+title.getElementByClassName('list-item')    --> it give  HTMLCollection  so we have to convert it to array to access it

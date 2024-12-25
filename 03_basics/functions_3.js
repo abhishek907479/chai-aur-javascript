@@ -57,6 +57,7 @@ console.log(addTwo(3))  // here we cannot access the addTwo() before declaration
 
 const addTwo = function(num){   // here we declared and hold the function in a variable 
                                // in javascript we can hold function,json etc in a variable
+                               
     return num + 1
 }
 
