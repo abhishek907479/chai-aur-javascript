@@ -1,0 +1,25 @@
+javascript
+------------
+ 1) synchronous
+ 2) single threaded
+
+
+execution context
+------------------
+->execute one line of code at a time
+
+
+
+
+
+Blocking code Vs  Non Blocking code
+-----------------------------------
+
+
+  Blocking code block the flow  of the code.  -->> read file sync
+
+  Non Blocking code does not block execution   -->> read file async
+ 
+
+
+
