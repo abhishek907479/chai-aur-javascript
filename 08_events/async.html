@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>code with me</h1>
+<button id="stop">Stop</button>
+</body>
+<script>
+
+   // setTimeout(function(){         -->  it perform the action after the specified number of seconds (it only perform  once but setInterval() perform infinite number of times)
+    //    console.log("abhishek")
+   // },2000)
+  
+   const abhishek = function(){
+    console.log("hi abhishek")
+  }
+
+const change = function(){
+document.querySelector('h1').innerHTML = "best code to learn js"
+
+}
+  
+
+ const changeMe =  setTimeout(change,2000)
+
+document.querySelector('#stop').addEventListener('click', function(){
+    clearTimeout(changeMe)    // it is used to stop the action performed in the interval of time and it requires a reference (that is the setTimeout() should be hold in a variable and pass the variable to the clearTimeout())
+    console.log("stopped")
+})
+  
+
+   
+
+
+
+</script>
+</html>
